@@ -49,7 +49,7 @@ Développé avec Python et intégrant MariaDB, ce système surveille 3 serveurs 
 ### Installation Rapide
 ```bash
 # Cloner le repository
-git clone https://github.com/[USERNAME]/PSMM.git
+git clone https://github.com/samet-ari/PSMM.git
 cd PSMM
 
 # Rendre les scripts exécutables

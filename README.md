@@ -36,3 +36,24 @@ Développé avec Python et intégrant MariaDB, ce système surveille 3 serveurs 
 │   + Python Scripts      │
 │   + Google Chat API     │
 └─────────────────────────┘
+
+## 📦 Installation
+
+### Prérequis Système
+- **OS**: Debian/Ubuntu Linux
+- **Python**: 3.9+ avec paramiko, mysql-connector
+- **Base de données**: MariaDB/MySQL
+- **Réseau**: SSH Key Authentication configuré
+- **Accès**: sudo sur tous les serveurs
+
+### Installation Rapide
+```bash
+# Cloner le repository
+git clone https://github.com/[USERNAME]/PSMM.git
+cd PSMM
+
+# Rendre les scripts exécutables
+chmod +x scripts/*.py
+
+# Installer les dépendances Python
+pip3 install paramiko mysql-connector-python flask psutil

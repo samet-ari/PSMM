@@ -41,7 +41,7 @@ Développé avec Python et intégrant MariaDB, ce système surveille 3 serveurs 
 
 ### Prérequis Système
 - **OS**: Debian/Ubuntu Linux
-- **Python**: 3.9+ avec paramiko, mysql-connector
+- **Python**: 3.11+ avec paramiko, mysql-connector
 - **Base de données**: MariaDB/MySQL
 - **Réseau**: SSH Key Authentication configuré
 - **Accès**: sudo sur tous les serveurs
